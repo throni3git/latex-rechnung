@@ -12,4 +12,11 @@ Sie enthält unter anderem eine Klausel für die Kleinunternehmerregelung.
 * `_data.tex`: Enthält die Kundendaten, als auch eigene Daten (Kontodaten, Steuernummer, Anschriften, Formulierungen, etc.)
 * `logo.png`: hier kann ein eigenes Logo eingesetzt werden
 
+## TT anpassungen
+
+`pdflatex -output-directory=./output input/TT_2023-09-07_BLS-akustik.tex`
+
+- in input/ liegen die tex-dateien, die `_main.tex` einbinden
+- in output/ liegen die PDFs und andere dateien
+
 

@@ -1,0 +1,59 @@
+% ################## invoice DATA ##################
+\newcommand{\invoiceDate}{02.06.2023} % Datum der rechnungsstellung
+\newcommand{\payDate}{16.06.2023} % Datum der Zahlungsfrist
+\newcommand{\invoiceReference}{20230602-1} % Rechnungsnummer (z.B. 20150122-4)
+\newcommand{\invoiceSalutation}{Sehr geehrte Damen und Herren,} % die Anrede
+\newcommand{\invoiceText}{
+für die von mir erbrachte Leistung erhalten Sie hiermit die Rechnung.
+Bei den aufgeführten Positionen handelt es sich um privat durchgeführte Leistungen,
+die von der Umsatzsteuer befreit sind.
+Bitte zahlen Sie den unten aufgeführten Gesamtbetrag
+unter Angabe der Rechnungsnummer (\invoiceReference) bis
+zum \payDate \ auf das angegebene Konto ein.
+} % Rechnungstext
+\newcommand{\invoiceEnclosures}{} % \encl{} einfügen
+\newcommand{\invoiceClosing}{Mit freundlichem Gruß}
+% ################## invoice DATA ##################
+
+
+
+% ################## Customer DATA ##################
+\newcommand{\customerCompany}{Ilmenauer Studentenclub e.V. Sektion bd} %ggf. Firma
+\newcommand{\customerName}{Mailin Wosnitza} % Name
+\newcommand{\customerStreet}{Max-Planck-Ring 16} % Straße
+\newcommand{\customerZIP}{98693} % Postleitzahl
+\newcommand{\customerCity}{Ilmenau} % Ort
+% ################## Customer DATA ##################
+
+
+
+
+% ################## Personal DATA ##################
+% START INVOICE DATA
+\newcommand{\taxID}{}
+% \newcommand{\taxID}{123/456/78901}
+% END INVOICE DATA
+% START SENDERS DATA
+\newcommand{\senderName}{Thomas Thron}
+\newcommand{\senderStreet}{Gartenstraße 9}
+\newcommand{\senderZIP}{98693}
+\newcommand{\senderCity}{Ilmenau}
+\newcommand{\senderTelephone}{-}
+\newcommand{\senderMobilephone}{+49 (0)176 63175225}
+\newcommand{\senderEmail}{throni3@gmx.de}
+\newcommand{\senderWeb}{\url{}}
+% END SENDERS DATA
+% START ACCOUNT DATA
+\newcommand{\accountRCPT}{\senderName}
+\newcommand{\accountNumber}{}
+\newcommand{\accountBLZ}{}
+\newcommand{\accountBankName}{Triodos Bank}
+\newcommand{\accountIBAN}{DE54 5003 1000 1094 5800 01}
+\newcommand{\accountBIC}{TRODDEF1}
+% END ACCOUNT DATA
+% ################## Personal DATA ##################
+
+
+
+% include meta data
+\include{_main}
